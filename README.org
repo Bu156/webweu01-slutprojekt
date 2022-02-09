@@ -1,0 +1,5 @@
+#+TITLE: Slutprojekt WEBWEU01
+
+Slutprojekt för kursen WEBWEU01.
+
+All HTML/CSS-kod i projektet är släppt under GFDL version 1.3, se [[file:COPYING.md][COPYING.md]] för mer info. Content är skyddat under upphovsrätten och tillhör dess ägare.
