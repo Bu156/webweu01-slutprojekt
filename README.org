@@ -2,4 +2,6 @@
 
 Slutprojekt för kursen WEBWEU01.
 
-All HTML/CSS-kod i projektet är släppt under GFDL version 1.3, se [[file:COPYING.md][COPYING.md]] för mer info. Content är skyddat under upphovsrätten och tillhör dess ägare.
+Sidan utvecklas på [[https://git.shrewdly.se/kasper/webweu01-slutprojekt][git.shrewdly.se/kasper/webweu01-slutprojekt]] med en mirror på [[https://github.com/Bu156/webweu01-slutprojekt][github.com/Bu156/webweu01-slutprojekt]].
+
+All content är skyddad av upphovsrättslagen och tillhör Spelkollektivet.

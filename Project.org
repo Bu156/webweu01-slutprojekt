@@ -1,0 +1,14 @@
+#+TODO: IMPORTANT BUG FIXING | FIXED
+#+Title: The Indie Quest
+
+* Plan
+* 🐛 Bugs
+* 🧪 Test results
+
+* ⌛ Time tracking
+
+|------+------|
+| Date | Time |
+|------+------|
+|      |      |
+|------+------|
