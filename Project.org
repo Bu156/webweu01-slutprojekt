@@ -1,14 +1,51 @@
+:PROPERTIES:
+:ID:       03720a65-47f0-4d61-854e-e47ae3a701fa
+:mtime:    20220423015257
+:ctime:    20220423015255
+:END:
 #+TODO: IMPORTANT BUG FIXING | FIXED
-#+Title: The Indie Quest
+#+Title: The Indie Quest (Final project WEBWEU01)
 
-* Plan
+* 🗓️ Plan
+30 hours have been allocated to this project.
+** Week 17
+10h - Create a working site and get feedback from the customer.
+** Week 18
+13h - Squash bugs and fix accessibility issues.
+** Week 19
+7h - Make sure the site passes all tests (W3 Validator, WCAG 2.1)
+* 📋 Checklist
+** Layout & Design
+*** [ ] Montserrat font (With fallback to system sans-serif)
+*** Pages
+**** [ ] Landing page
+***** [ ] One YouTube video
+**** [ ] Curriculum page
+**** [ ] /Find us/ page
+***** [ ] Map
+**** [ ] Application
+***** [ ] Form which validates obligatory fields
+*** [ ] Navbar
+**** [ ] Logo
+*** [ ] Responsive design
+** Accessibility
+*** [ ] All images _must_ have alt text
+*** [ ] Declare language
+*** [ ] Test site against WCAG 2.1
+** HTML
+*** [ ] Semantic HTML
+*** [ ] Validated with W3 Validator
+*** [ ] Well documented HTML & CSS
+** Git
+*** [ ] At least 10 commits
+*** [ ] Two weeks
 * 🐛 Bugs
 * 🧪 Test results
 
 * ⌛ Time tracking
 
-|------+------|
-| Date | Time |
-|------+------|
-|      |      |
-|------+------|
+|------+------+---------|
+| Date | Time | Comment |
+|------+------+---------|
+|      |      |         |
+|------+------+---------|
