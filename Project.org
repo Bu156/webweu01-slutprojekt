@@ -36,12 +36,12 @@
 ***** [ ] Map
 **** [ ] Application
 ***** [ ] Form which validates obligatory fields
-*** [ ] Navbar
-**** [ ] Logo
+*** [X] Navbar
+**** [X] Logo
 *** [ ] Responsive design
 ** Accessibility
 *** [ ] All images _must_ have alt text
-*** [ ] Declare language
+*** [X] Declare language
 *** [ ] Test site against WCAG 2.1
 ** HTML
 *** [ ] Semantic HTML
@@ -55,8 +55,8 @@
 
 * ⌛ Time tracking
 
-|------+------+---------|
-| Date | Time | Comment |
-|------+------+---------|
-|      |      |         |
-|------+------+---------|
+|-------+------+---------------------------|
+|  Date | Time | Comment                   |
+|-------+------+---------------------------|
+| 04-27 | 2h   | Create basic HTML and CSS |
+|-------+------+---------------------------|
