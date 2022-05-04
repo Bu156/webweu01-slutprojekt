@@ -4,8 +4,7 @@ body {
 }
 
 #iq-navbar-logo {
-    max-height: 100%;
-    object-fit: cover;
+    height: 5em;
 }
 
 #iq-navbar {
