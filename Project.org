@@ -60,4 +60,5 @@
 |-------+------+---------------------------------------------------------------------------|
 | 04-27 | 2h   | Create basic HTML and CSS                                                 |
 | 05-05 | 2h   | Fix issues with navbar scaling and put text content in a plaintext format |
+| 05-19 | 0.5h | Polish margins and add video                                              |
 |-------+------+---------------------------------------------------------------------------|
