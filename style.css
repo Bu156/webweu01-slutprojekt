@@ -1,5 +1,9 @@
 body {
     background-image: url("./assets/bg-blur.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: montserrat;
 }
 
