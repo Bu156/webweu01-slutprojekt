@@ -62,4 +62,6 @@
 | 05-05 | 2h    | Fix issues with navbar scaling and put text content in a plaintext format |
 | 05-19 | 0.5h  | Polish margins and add video                                              |
 | 05-20 | 20min | Fix navbar on mobile                                                      |
+|       | 10min | Fix logo and text scaling                                                 |
+|       | 10min | Fix video scaling on main page                                            |
 |-------+-------+---------------------------------------------------------------------------|
