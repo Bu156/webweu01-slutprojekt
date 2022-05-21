@@ -10,3 +10,8 @@ body {
 #iq-home-title {
     font-size: 10em;
 }
+
+.spacer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
