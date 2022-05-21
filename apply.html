@@ -49,25 +49,25 @@
 	    <h1 class="display-1 text-center">Apply</h1>
 	    <div class="text-center w-100">
 		<ul style="list-style-type: none;">
-		    Personnummer
-		    <li><input type="text" placeholder="ÅÅMMDD-XXXX" name="persnr" id="persnr"></li>
-		    Förnamn
-		    <li><input type="text" name="firstname" id="firstname"></li>
-		    Efternamn
-		    <li><input type="text" name="surname" id="surname"></li>
+		    Personnummer *
+		    <li><input type="text" placeholder="ÅÅMMDD-XXXX" name="persnr" id="persnr" required></li>
+		    Förnamn *
+		    <li><input type="text" name="firstname" id="firstname" required></li>
+		    Efternamn *
+		    <li><input type="text" name="surname" id="surname" required></li>
 		    C/o
 		    <li><input type="text" name="co" id="co"></li>
-		    Adress
-		    <li><input type="text" name="address" id="address"></li>
-		    Postnummer
-		    <li><input type="text" name="postnr" id="postnr"></li>
-		    Ort
-		    <li><input type="text" name="city" id="city"></li>
+		    Adress *
+		    <li><input type="text" name="address" id="address" required></li>
+		    Postnummer *
+		    <li><input type="text" name="postnr" id="postnr" required></li>
+		    Ort *
+		    <li><input type="text" name="city" id="city" required></li>
 		    Telefon
 		    <li><input type="text" name="phone" id="phone"></li>
 		    E-post
 		    <li><input type="text" name="email" id="email"></li>
-		    Hur vill du bli kontaktad?
+		    Hur vill du bli kontaktad? *
 		    <li>
 			<select id="contactmethod" name="contactmethod">
 			    <option value="telefon">Telefon</option>

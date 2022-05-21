@@ -27,14 +27,14 @@
 
 * 📋 Checklist
 ** Layout & Design
-*** [ ] Montserrat font (With fallback to system sans-serif)
+*** [X] Montserrat font (With fallback to system sans-serif)
 *** Pages
-**** [ ] Landing page
-***** [ ] One YouTube video
-**** [ ] Curriculum page
-**** [ ] /Find us/ page
+**** [X] Landing page
+***** [X] One YouTube video
+**** [X] Curriculum page
+**** [X] /Find us/ page
 ***** [ ] Map
-**** [ ] Application
+**** [X] Application
 ***** [ ] Form which validates obligatory fields
 *** [X] Navbar
 **** [X] Logo
