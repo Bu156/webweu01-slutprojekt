@@ -5,7 +5,7 @@ ORGNAME=$(PROJFILE).org
 MDNAME=$(PROJFILE).md
 ODTNAME=$(PROJFILE).odt
 PDFNAME=$(PROJFILE).pdf
-IMPORTANTFILES=res sketch *.html
+IMPORTANTFILES=res sketch *.html *.css $(ORGNAME)
 
 zip: $(ZIPNAME)
 

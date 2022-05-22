@@ -100,5 +100,6 @@ Solution: Rename ~assets/Indie Quest Map.png~ to ~assets/indie-quest-map.png~.
 | 05-22 | 0.5h  | Validate forms on 'apply' page                                  |
 |       | 0.5h  | Tweak index layout to show more content                         |
 |       | 0.5h  | Format 'Find us' page properly                                  |
-|       | 1h    | Make site pass W3 test                                 |
+|       | 1h    | Make site pass W3 test                                          |
+|       | 1h    | Organize project file and commit bootstrap files                |
 |-------+-------+-----------------------------------------------------------------|
