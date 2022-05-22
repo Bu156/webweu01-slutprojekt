@@ -31,6 +31,6 @@ body {
   height: 100%;
 }
 
-td {
+.apply-form-td {
     padding: .25rem;
 }
