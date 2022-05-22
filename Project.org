@@ -8,6 +8,7 @@
 
  * Main repository: [[https://git.shrewdly.se/kasper/webweu01-slutprojekt][@git.shrewdly.se]]
  * Mirror: [[https://github.com/bu156/webweu01-slutprojekt][@github.com]]
+ * Demo: [[https://demo.shrewdly.se/indiequest/][demo.shrewdly.se/indiequest]]
 
 * 🗓️ Plan
 30 hours have been allocated to this project.

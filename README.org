@@ -4,4 +4,6 @@ Slutprojekt för kursen WEBWEU01.
 
 Sidan utvecklas på [[https://git.shrewdly.se/kasper/webweu01-slutprojekt][git.shrewdly.se/kasper/webweu01-slutprojekt]] med en mirror på [[https://github.com/Bu156/webweu01-slutprojekt][github.com/Bu156/webweu01-slutprojekt]].
 
+Demo finns på [[https://demo.shrewdly.se/indiequest/][demo.shrewdly.se/indiequest]].
+
 All content är skyddad av upphovsrättslagen och tillhör Spelkollektivet.
