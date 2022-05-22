@@ -34,14 +34,14 @@
 ***** [X] One YouTube video
 **** [X] Curriculum page
 **** [X] /Find us/ page
-***** [ ] Map
+***** [X] Map
 **** [X] Application
 ***** [X] Form which validates obligatory fields
 *** [X] Navbar
 **** [X] Logo
-*** [ ] Responsive design
+*** [X] Responsive design
 ** Accessibility
-*** [ ] All images _must_ have alt text
+*** [X] All images _must_ have alt text
 *** [X] Declare language
 *** [ ] Test site against WCAG 2.1
 ** HTML
@@ -79,6 +79,8 @@ Solution: Rename ~assets/Indie Quest Map.png~ to ~assets/indie-quest-map.png~.
 *** Apply.html
 **** Many instances of 'Text not allowed in element ~ul~ in this context.'
  * Solution: Align text and inputs with ~<table>~.
+** Test 5:
+*** All documents passed!
 
 * ⌛ Time tracking
 
@@ -98,5 +100,6 @@ Solution: Rename ~assets/Indie Quest Map.png~ to ~assets/indie-quest-map.png~.
 |-------+-------+-----------------------------------------------------------------|
 | 05-22 | 0.5h  | Validate forms on 'apply' page                                  |
 |       | 0.5h  | Tweak index layout to show more content                         |
-|       | 0.5h  | Format 'Find us' page properly                                   |
+|       | 0.5h  | Format 'Find us' page properly                                  |
+|       | 1h    | Make site pass W3 test                                 |
 |-------+-------+-----------------------------------------------------------------|
