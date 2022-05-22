@@ -8,6 +8,22 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="icon" href="./assets/IQ_Logo_White_Roof_Outlined.svg">
+
+	<script type="text/javascript">
+	 function set_citizenship_input(val){
+	     var element=document.getElementById('citizenship_input');
+	     if(val=="sverige")
+	     {
+		 element.style.display='none';
+		 element.value = val;
+	     }
+	     else
+	     {
+		 element.style.display='block';
+		 element.value = "";
+	     }
+	 }
+	</script>
     </head>
     <body>
 
@@ -48,43 +64,48 @@
 	<div class="container-lg bg-light my-4 p-4 rounded">
 	    <h1 class="display-1 text-center">Apply</h1>
 	    <div class="text-center w-100">
-		<ul style="list-style-type: none;">
-		    Personnummer *
-		    <li><input type="text" placeholder="ÅÅMMDD-XXXX" name="persnr" id="persnr" required></li>
-		    Förnamn *
-		    <li><input type="text" name="firstname" id="firstname" required></li>
-		    Efternamn *
-		    <li><input type="text" name="surname" id="surname" required></li>
-		    C/o
-		    <li><input type="text" name="co" id="co"></li>
-		    Adress *
-		    <li><input type="text" name="address" id="address" required></li>
-		    Postnummer *
-		    <li><input type="text" name="postnr" id="postnr" required></li>
-		    Ort *
-		    <li><input type="text" name="city" id="city" required></li>
-		    Telefon
-		    <li><input type="text" name="phone" id="phone"></li>
-		    E-post
-		    <li><input type="text" name="email" id="email"></li>
-		    Hur vill du bli kontaktad? *
-		    <li>
-			<select id="contactmethod" name="contactmethod">
-			    <option value="telefon">Telefon</option>
-			    <option value="email">Mail</option>
-			</select>
-		    </li>
-		    Medborgarskap
-		    <li>
-			<select id="citizenship" name="citizenship">
-			    <option value="sverige">Sverige</option>
-			    <option value="other">Annat</option>
-			</select>
-		    </li>
-		</ul>
-		<button class="btn btn-success">
-		    Send
-		</button>
+		<form>
+		    <ul style="list-style-type: none;">
+			Personnummer *
+			<li><input type="text" placeholder="ÅÅMMDD-XXXX" name="persnr" id="persnr" required></li>
+			Förnamn *
+			<li><input type="text" name="firstname" id="firstname" required></li>
+			Efternamn *
+			<li><input type="text" name="surname" id="surname" required></li>
+			C/o
+			<li><input type="text" name="co" id="co"></li>
+			Adress *
+			<li><input type="text" name="address" id="address" required></li>
+			Postnummer *
+			<li><input type="text" name="postnr" id="postnr" required></li>
+			Ort *
+			<li><input type="text" name="city" id="city" required></li>
+			Telefon
+			<li><input type="text" name="phone" id="phone"></li>
+			E-post
+			<li><input type="text" name="email" id="email"></li>
+			Hur vill du bli kontaktad? *
+			<li>
+			    <select id="contactmethod" name="contactmethod">
+				<option value="telefon">Telefon</option>
+				<option value="email">Mail</option>
+			    </select>
+			</li>
+			Medborgarskap *
+			<li>
+			    <select id="citizenship" name="citizenship" onchange="set_citizenship_input(this.value);">
+				<option value="sverige">Svensk</option>
+				<option value="other">Annat (ange land)</option>
+			    </select>
+			</li>
+			<li>
+			    <input type="text" name="citizenship_input" id="citizenship_input" style="display:none;" value="sverige" required>
+			</li>
+		    </ul>
+		    <button class="btn btn-success">
+			Submit
+		    </button>
+		</form>
 	    </div>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
