@@ -47,49 +47,73 @@
 	<!-- Body -->
 	<div class="container-lg bg-light my-4 p-4 rounded">
 	    <h1 class="display-1 text-center">Apply</h1>
-	    <div class="text-center w-100">
+	    <div class="w-100 mt-4">
 		<form>
-		    <ul style="list-style-type: none;">
-			Personnummer *
-			<li><input type="text" placeholder="ÅÅMMDD-XXXX" name="persnr" id="persnr" required></li>
-			Förnamn *
-			<li><input type="text" name="firstname" id="firstname" required></li>
-			Efternamn *
-			<li><input type="text" name="surname" id="surname" required></li>
-			C/o
-			<li><input type="text" name="co" id="co"></li>
-			Adress *
-			<li><input type="text" name="address" id="address" required></li>
-			Postnummer *
-			<li><input type="text" name="postnr" id="postnr" required></li>
-			Ort *
-			<li><input type="text" name="city" id="city" required></li>
-			Telefon
-			<li><input type="text" name="phone" id="phone"></li>
-			E-post
-			<li><input type="text" name="email" id="email"></li>
-			Hur vill du bli kontaktad? *
-			<li>
-			    <select id="contactmethod" name="contactmethod">
-				<option value="telefon">Telefon</option>
-				<option value="email">Mail</option>
-			    </select>
-			</li>
-			Medborgarskap *
-			<li>
-			    <select id="citizenship_select" name="citizenship_select" onchange="set_show_citizenship_input(this.value);">
-				<option value="sverige">Svensk</option>
-				<option value="other">Annat (ange land)</option>
-			    </select>
-			</li>
-			<p></p> <!-- Spacer -->
-			<li>
-			    <input type="text" name="citizenship_input" id="citizenship_input" value="sverige" required>
-			</li>
-		    </ul>
-		    <button class="btn btn-success">
-			Submit
-		    </button>
+		    <table class="m-auto" id="apply-form-table">
+			<tr>
+			    <td class="apply-form-td">Personnummer *</td>
+			    <td class="apply-form-td"><input type="text" placeholder="ÅÅMMDD-XXXX" name="persnr" id="persnr" required></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">Förnamn *</td>
+			    <td class="apply-form-td"><input type="text" name="firstname" id="firstname" required></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">Efternamn *</td>
+			    <td class="apply-form-td"><input type="text" name="surname" id="surname" required></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">C/o</td>
+			    <td class="apply-form-td"><input type="text" name="co" id="co"></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">Adress *</td>
+			    <td class="apply-form-td"><input type="text" name="address" id="address" required></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">Postnummer *</td>
+			    <td class="apply-form-td"><input type="text" name="postnr" id="postnr" required></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">Ort *</td>
+			    <td class="apply-form-td"><input type="text" name="city" id="city" required></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">Telefon</td>
+			    <td class="apply-form-td"><input type="text" name="phone" id="phone"></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">E-post</td>
+			    <td class="apply-form-td"><input type="text" name="email" id="email"></td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">Hur vill du btd kontaktad? *</td>
+			    <td class="apply-form-td">
+				<select id="contactmethod" name="contactmethod">
+				    <option value="telefon">Telefon</option>
+				    <option value="email">Mail</option>
+				</select>
+			    </td>
+			</tr>
+			<tr>
+			    <td class="apply-form-td">Medborgarskap *</td>
+			    <td class="apply-form-td">
+				<select id="citizenship_select" name="citizenship_select" onchange="set_show_citizenship_input(this.value);">
+				    <option value="sverige">Svensk</option>
+				    <option value="other">Annat (ange land)</option>
+				</select>
+			    </td>
+			</tr>
+			<td class="apply-form-td"/> <!-- Empty, puts citizen_input next to it -->
+			<td class="apply-form-td">
+			    <input type="text" placeholder="Land" name="citizenship_input" id="citizenship_input" value="sverige" required>
+			</td>
+		    </table>
+		    <div class="text-center mt-4">
+			<button class="btn btn-success">
+			    Submit
+			</button>
+		    </div>
 		</form>
 	    </div>
 	</div>

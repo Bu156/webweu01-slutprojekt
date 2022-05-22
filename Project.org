@@ -75,6 +75,11 @@ I forgot to remove alt text from the favicon after adding alt text to all logos 
 **** Bad value ~assets/Indie Quest Map.png~ for attribute ~src~ on ~element~ img: Illegal character in path segment: space is not allowed.
 Solution: Rename ~assets/Indie Quest Map.png~ to ~assets/indie-quest-map.png~.
 ** Test 4:
+*** Findus.html : Passed
+*** Apply.html
+**** Many instances of 'Text not allowed in element ~ul~ in this context.'
+ * Solution: Align text and inputs with ~<table>~.
+
 * ⌛ Time tracking
 
 |-------+-------+-----------------------------------------------------------------|
