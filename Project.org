@@ -43,11 +43,10 @@
 ** Accessibility
 *** [X] All images _must_ have alt text
 *** [X] Declare language
-*** [ ] Test site against WCAG 2.1
 ** HTML
-*** [ ] Semantic HTML
-*** [ ] Validated with W3 Validator
-*** [ ] Well documented HTML & CSS
+*** [X] Semantic HTML
+*** [X] Validated with W3 Validator
+*** [X] Well documented HTML & CSS
 ** Git
 *** [X] At least 10 commits
 *** [X] Two weeks
