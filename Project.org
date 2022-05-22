@@ -71,4 +71,5 @@
 |       | 2h    | Create About, Curriculum, Find us and Apply pages               |
 |-------+-------+-----------------------------------------------------------------|
 | 05-22 | 0.5h  | Validate forms on 'apply' page                                  |
+|       | 0.5h  | Tweak index layout to show more content                         |
 |-------+-------+-----------------------------------------------------------------|

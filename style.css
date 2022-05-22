@@ -11,8 +11,8 @@ body {
     max-height: 5rem;
 }
 
-#iq-home-title {
-    font-size: 10em;
+.iq-home-title-lg {
+    font-size: 6rem;
 }
 
 .spacer-4 {
