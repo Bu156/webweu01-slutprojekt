@@ -15,11 +15,6 @@ body {
     font-size: 6rem;
 }
 
-.spacer-4 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 /* Make video size relative */
 .video-container {
   position: relative;
