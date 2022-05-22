@@ -53,6 +53,8 @@
 *** [X] Two weeks
 * 🐛 Bugs
  * [X] Apply page always shows citizenship input field on reload
+ * [X] Navbar hamburger menu doesn't open on 'apply' page
+   * Fixed by adding missing script end tag
 * 🧪 Test results
 
 * ⌛ Time tracking
