@@ -35,7 +35,7 @@
 **** [X] /Find us/ page
 ***** [ ] Map
 **** [X] Application
-***** [ ] Form which validates obligatory fields
+***** [X] Form which validates obligatory fields
 *** [X] Navbar
 **** [X] Logo
 *** [ ] Responsive design
@@ -48,26 +48,27 @@
 *** [ ] Validated with W3 Validator
 *** [ ] Well documented HTML & CSS
 ** Git
-*** [ ] At least 10 commits
-*** [ ] Two weeks
+*** [X] At least 10 commits
+*** [X] Two weeks
 * 🐛 Bugs
+ * [X] Apply page always shows citizenship input field on reload
 * 🧪 Test results
 
 * ⌛ Time tracking
 
-|-------+-------+---------------------------------------------------------------------------|
-|  Date | Time  | Comment                                                                   |
-|-------+-------+---------------------------------------------------------------------------|
-| 04-27 | 2h    | Create basic HTML and CSS                                                 |
-|-------+-------+---------------------------------------------------------------------------|
-| 05-05 | 2h    | Fix issues with navbar scaling and put text content in a plaintext format |
-|-------+-------+---------------------------------------------------------------------------|
-| 05-19 | 0.5h  | Polish margins and add video                                              |
-|-------+-------+---------------------------------------------------------------------------|
-| 05-21 | 20min | Fix navbar on mobile                                                      |
-|       | 10min | Fix logo and text scaling                                                 |
-|       | 10min | Fix video scaling on main page                                            |
-|       | 2h    | Create About, Curriculum, Find us and Apply pages                         |
-|-------+-------+---------------------------------------------------------------------------|
-| 05-22 | 0.5h  | Validate forms on 'apply' page                                            |
-|-------+-------+---------------------------------------------------------------------------|
+|-------+-------+-----------------------------------------------------------------|
+|  Date | Time  | Comment                                                         |
+|-------+-------+-----------------------------------------------------------------|
+| 04-27 | 2h    | Create basic HTML and CSS                                       |
+|-------+-------+-----------------------------------------------------------------|
+| 05-05 | 2h    | Fix issues with navbar scaling and put text content in markdown |
+|-------+-------+-----------------------------------------------------------------|
+| 05-19 | 0.5h  | Polish margins and add video                                    |
+|-------+-------+-----------------------------------------------------------------|
+| 05-21 | 20min | Fix navbar on mobile                                            |
+|       | 10min | Fix logo and text scaling                                       |
+|       | 10min | Fix video scaling on main page                                  |
+|       | 2h    | Create About, Curriculum, Find us and Apply pages               |
+|-------+-------+-----------------------------------------------------------------|
+| 05-22 | 0.5h  | Validate forms on 'apply' page                                  |
+|-------+-------+-----------------------------------------------------------------|
